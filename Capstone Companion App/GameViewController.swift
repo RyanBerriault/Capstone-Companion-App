@@ -10,6 +10,9 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
+// Coco Pod ~ SwiftCharts 0.6.3 ~
+import SwiftCharts
+
 class GameViewController: UIViewController {
 
     override func viewDidLoad() {

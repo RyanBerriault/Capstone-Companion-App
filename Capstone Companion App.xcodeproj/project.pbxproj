@@ -15,6 +15,7 @@
 		1931C29B21EAD418005821E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1931C29921EAD418005821E1 /* Main.storyboard */; };
 		1931C29D21EAD42A005821E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1931C29C21EAD42A005821E1 /* Assets.xcassets */; };
 		1931C2A021EAD42A005821E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1931C29E21EAD42A005821E1 /* LaunchScreen.storyboard */; };
+		662747DD51F5352F549714FB /* Pods_Capstone_Companion_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C07F2A72DA66175F991D00 /* Pods_Capstone_Companion_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,9 @@
 		1931C29C21EAD42A005821E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1931C29F21EAD42A005821E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1931C2A121EAD42A005821E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B14E4CC3DC16B7C23E4F0B /* Pods-Capstone Companion App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capstone Companion App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Capstone Companion App/Pods-Capstone Companion App.debug.xcconfig"; sourceTree = "<group>"; };
+		98C07F2A72DA66175F991D00 /* Pods_Capstone_Companion_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Capstone_Companion_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE9607EA2CA87F008B78C5B /* Pods-Capstone Companion App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capstone Companion App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Capstone Companion App/Pods-Capstone Companion App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662747DD51F5352F549714FB /* Pods_Capstone_Companion_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +51,8 @@
 			children = (
 				1931C28E21EAD417005821E1 /* Capstone Companion App */,
 				1931C28D21EAD417005821E1 /* Products */,
+				5E059B27ED40FA90F5E1EB06 /* Pods */,
+				4E0A8CD537AADF776077482B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +80,23 @@
 			path = "Capstone Companion App";
 			sourceTree = "<group>";
 		};
+		4E0A8CD537AADF776077482B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98C07F2A72DA66175F991D00 /* Pods_Capstone_Companion_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E059B27ED40FA90F5E1EB06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19B14E4CC3DC16B7C23E4F0B /* Pods-Capstone Companion App.debug.xcconfig */,
+				9CE9607EA2CA87F008B78C5B /* Pods-Capstone Companion App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1931C2A421EAD42A005821E1 /* Build configuration list for PBXNativeTarget "Capstone Companion App" */;
 			buildPhases = (
+				9DB706A9BD41B1B171C68D49 /* [CP] Check Pods Manifest.lock */,
 				1931C28821EAD417005821E1 /* Sources */,
 				1931C28921EAD417005821E1 /* Frameworks */,
 				1931C28A21EAD417005821E1 /* Resources */,
+				16A35F3FD52A9054F1F01495 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +166,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16A35F3FD52A9054F1F01495 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Capstone Companion App/Pods-Capstone Companion App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCharts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Capstone Companion App/Pods-Capstone Companion App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB706A9BD41B1B171C68D49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Capstone Companion App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1931C28821EAD417005821E1 /* Sources */ = {
@@ -292,6 +365,7 @@
 		};
 		1931C2A521EAD42A005821E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B14E4CC3DC16B7C23E4F0B /* Pods-Capstone Companion App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +383,7 @@
 		};
 		1931C2A621EAD42A005821E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE9607EA2CA87F008B78C5B /* Pods-Capstone Companion App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
