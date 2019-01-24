@@ -52,7 +52,7 @@ In Sid Meier's Pirates & Elite Dangerous their are goods trading systems that re
 ### Layout
 Sync Page | Description
 ------------ | -------------
-![Image of Sync Page Layout](https://github.com/RyanBerriault/Capstone-Companion-App/blob/master/Sync%20Page.png)| This is the first page a given user will see and its purpose is to let the user choose and connect to their game files. 
+![Image of Sync Page Layout](https://github.com/RyanBerriault/Capstone-Companion-App/blob/master/Sync%20Page.png) | This is the first page a given user will see and its purpose is to let the user choose and connect to their game files. 
 
 > "Directly underneath the Pages bar you can see two buttons the first green one is to Re-Sync game saves from an existing connection. Under this button is another that is Orange this button is used to Establish a connection to the users specific game as well as its saves. To the Right now you will see a chart. This is all the saves the system currently has access to and the user must pick which one they want the app to use. This can be seen in the left hand column with the row that has a filled dot, In the right collum is the name of the save file." 
 
