@@ -52,13 +52,13 @@ In Sid Meier's Pirates & Elite Dangerous their are goods trading systems that re
 ### Layout
 Sync Page | Description
 ------------ | -------------
-![Image of Sync Page Layout](https://github.com/RyanBerriault/Capstone-Companion-App/blob/master/Sync%20Page.PNG)| This is the first page a given user will see and its purpose is to let the user choose and connect to their game files. 
+![Image of Sync Page Layout](https://github.com/RyanBerriault/Capstone-Companion-App/blob/master/Sync%20Page.png)| This is the first page a given user will see and its purpose is to let the user choose and connect to their game files. 
 
 > "Directly underneath the Pages bar you can see two buttons the first green one is to Re-Sync game saves from an existing connection. Under this button is another that is Orange this button is used to Establish a connection to the users specific game as well as its saves. To the Right now you will see a chart. This is all the saves the system currently has access to and the user must pick which one they want the app to use. This can be seen in the left hand column with the row that has a filled dot, In the right collum is the name of the save file." 
 
 Stock Page | Description
 ------------ | -------------
-![Image of Stock Page Layout](https://github.com/RyanBerriault/Capstone-Companion-App/blob/master/Stock%20Page.PNG) | The Stock page displays all known information regarding any given stock. 
+![Image of Stock Page Layout](https://github.com/RyanBerriault/Capstone-Companion-App/blob/master/Stock%20Page.png) | The Stock page displays all known information regarding any given stock. 
 
 > "Top to bottom the Stock Page starts off with a search bar which the user may use to search for any existing stock ( as long it is in their save game ). Next the stock title and a description of the stock follows. In the middle from left to right begins with the stocks in game picture or icon. Then beside the green icon its current trading price, Beside the orange icon is the stocks demand and lastly next to the purple icon is the stock supply. On the buttom of the screen Respectlively left and right are arrows that will change the dates that the graph will show ( Allowing the user to look backward or forward in time, However forward in time past the present date is done by a predictive algorithm and is not a final price ). For the graph the vertical axis is the stocks given price and the horizontal axis is related to the given date. Green and red on the graph itself represents positive and negitive values." 
 
